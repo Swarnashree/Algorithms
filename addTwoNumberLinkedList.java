@@ -88,36 +88,9 @@ public class Solution {
             ListNode temp=new ListNode(1);
             pointer.next=temp;
         }
-        
-        /*ListNode iter=head;
-        while(iter!=null)
-        {
-            System.out.println("element "+iter);
-            iter=iter.next;
-        }*/
+      
         return head;
     }
     
-    /*public int extraAdd(int carry,ListNode r,ListNode pointer)
-    {
-        System.out.println(carry);
-        while(r!=null)
-        {
-            int sum=r.val+carry;
-            //System.out.println(sum%10);
-            if(sum>9)
-                carry=1;
-            else
-                carry=0;
-            ListNode temp=new ListNode(sum%10);
-            pointer.next=temp;
-            pointer=pointer.next;
-            System.out.println("Address "+pointer);
-
-            r=r.next;
-        }
-        
-        return carry;
-        
-    }*/
+   
 }
