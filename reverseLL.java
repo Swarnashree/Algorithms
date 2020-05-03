@@ -15,11 +15,11 @@ public class reverseLL {
         }
 
         //ll.traverseLL();
-        ll.head = reverseLL(ll.head);
-        ll.traverseLL();
-
-        //ll.head = reverseSet(ll.head,4);
+       // ll.head = reverseLL(ll.head);
         //ll.traverseLL();
+
+        ll.head = reverseSet(ll.head,4);
+        ll.traverseLL();
 
     }
 
